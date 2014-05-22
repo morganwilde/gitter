@@ -10,6 +10,7 @@
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *label;
+@property (weak, nonatomic) IBOutlet UILabel *center;
 
 @end
 
@@ -19,6 +20,7 @@
 {
     [super viewDidLoad];
 	self.label.text = @"This is new!";
+    self.center.text = @"Center";
 }
 
 - (void)didReceiveMemoryWarning
