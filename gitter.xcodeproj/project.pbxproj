@@ -199,6 +199,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = morganwilde;
 				TargetAttributes = {
+					2EFE66FD192E30F20016E3C1 = {
+						DevelopmentTeam = 3XUGAGS63P;
+					};
 					2EFE671E192E30F20016E3C1 = {
 						TestTargetID = 2EFE66FD192E30F20016E3C1;
 					};
@@ -376,6 +379,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "gitter/gitter-Prefix.pch";
 				INFOPLIST_FILE = "gitter/gitter-Info.plist";
@@ -389,6 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "gitter/gitter-Prefix.pch";
 				INFOPLIST_FILE = "gitter/gitter-Info.plist";
