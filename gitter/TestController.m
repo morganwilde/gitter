@@ -35,6 +35,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)pushed:(id)sender {
+    self.label.text = @"Good";
+}
 
 /*
 #pragma mark - Navigation
