@@ -21,6 +21,7 @@
 		2EFE6723192E30F20016E3C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFE6705192E30F20016E3C1 /* UIKit.framework */; };
 		2EFE672B192E30F20016E3C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2EFE6729192E30F20016E3C1 /* InfoPlist.strings */; };
 		2EFE672D192E30F20016E3C1 /* gitterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFE672C192E30F20016E3C1 /* gitterTests.m */; };
+		2EFE6738192E322D0016E3C1 /* TestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFE6737192E322D0016E3C1 /* TestController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		2EFE6728192E30F20016E3C1 /* gitterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gitterTests-Info.plist"; sourceTree = "<group>"; };
 		2EFE672A192E30F20016E3C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2EFE672C192E30F20016E3C1 /* gitterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitterTests.m; sourceTree = "<group>"; };
+		2EFE6736192E322D0016E3C1 /* TestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestController.h; sourceTree = "<group>"; };
+		2EFE6737192E322D0016E3C1 /* TestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				2EFE6713192E30F20016E3C1 /* Main.storyboard */,
 				2EFE6716192E30F20016E3C1 /* ViewController.h */,
 				2EFE6717192E30F20016E3C1 /* ViewController.m */,
+				2EFE6736192E322D0016E3C1 /* TestController.h */,
+				2EFE6737192E322D0016E3C1 /* TestController.m */,
 				2EFE6719192E30F20016E3C1 /* Images.xcassets */,
 				2EFE6708192E30F20016E3C1 /* Supporting Files */,
 			);
@@ -255,6 +260,7 @@
 				2EFE6718192E30F20016E3C1 /* ViewController.m in Sources */,
 				2EFE6712192E30F20016E3C1 /* AppDelegate.m in Sources */,
 				2EFE670E192E30F20016E3C1 /* main.m in Sources */,
+				2EFE6738192E322D0016E3C1 /* TestController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
